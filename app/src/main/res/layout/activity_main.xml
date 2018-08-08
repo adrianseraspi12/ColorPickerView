@@ -11,13 +11,13 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:colorList="@array/colors"
-        app:colorsPerRow="4"
-        app:verticalSize="40dp"
+        app:colorsPerRow="3"
+        app:verticalSize="100dp"
         app:verticalMargin="4dp"
         app:horizontalMargin="4dp"
         app:pickColorPosition="0"
         app:pickerIcon="check"
-        app:pickerIconSize="8dp"
-        app:shape="box"/>
+        app:pickerIconSize="18dp"
+        app:shape="oval"/>
 
 </android.support.constraint.ConstraintLayout>
