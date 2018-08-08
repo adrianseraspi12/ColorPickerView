@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="ColorPickerView">
+        <attr name="shape" format="enum">
+            <enum name="box" value="0" />
+            <enum name="oval" value="1" />
+        </attr>
+        <attr name="pickerIcon" format="enum">
+            <enum name="check" value="500" />
+            <enum name="cross" value="501" />
+            <enum name="dot" value="502" />
+        </attr>
+
+        <attr name="colorList" format="color|reference"/>
+        <attr name="colorsPerRow" format="integer" />
+        <attr name="verticalSize" format="dimension" />
+        <attr name="verticalMargin" format="dimension" />
+        <attr name="horizontalMargin" format="dimension" />
+        <attr name="pickColorPosition" format="integer" />
+        <attr name="pickerIconSize" format="dimension"/>
+
+    </declare-styleable>
+
+</resources>
